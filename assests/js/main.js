@@ -32,6 +32,15 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
+/*==================== Typed Animation ====================*/
+var typed = new Typed(".multiple-text", {
+    strings : ["Java", "Flutter", "Machine Learning", "Figma(UI)"],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+})
+
 
 /*==================== ACCORDION SKILLS ====================*/
 const skillsContent = document.getElementsByClassName('skills__content'),
